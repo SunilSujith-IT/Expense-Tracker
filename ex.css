@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #c4aa73;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.container {
+  background: rgb(192, 196, 141);
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+.balance {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.summary div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f1f1f1;
+  margin: 0 5px;
+}
+.income {
+  color: green;
+}
+.expense {
+  color: red;
+}
+.transaction-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+.transaction {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid;
+  border-radius: 5px;
+}
+.transaction.plus {
+  border-color: green;
+}
+.transaction.minus {
+  border-color: red;
+}
+.transaction button {
+  background: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50px;
+  border-color: #f7f7f7;
+}
+input, button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
